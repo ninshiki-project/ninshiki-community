@@ -15,7 +15,7 @@ export default defineConfig({
         laravel({
             hotFile: 'public/vendor/ninshiki/ninshiki.hot',
             buildDirectory: '/vendor/ninshiki',
-            input: ['resources/js/app.js', 'resources/css/ninshiki.css'],
+            input: ['resources/js/app.js', 'resources/css/ninshiki.css', 'resources/assets/logo.png'],
             refresh: true,
         }),
         vue({

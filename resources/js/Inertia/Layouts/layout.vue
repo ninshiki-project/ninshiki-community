@@ -99,7 +99,7 @@ NinshikiApp.addShortcut(['command+q', 'ctrl+q'], function () {
     <div class="flex h-fit w-full justify-center">
         <LogoutDialog />
         <Toast position="bottom-right" group="br" />
-        <div class="flex">
+        <div class="flex pt-16">
             <!-- Left Sidebar  -->
             <div class="sticky top-9 h-fit">
                 <!-- Fixed Sidebar -->
@@ -129,6 +129,7 @@ NinshikiApp.addShortcut(['command+q', 'ctrl+q'], function () {
                             <button
                                 v-ripple
                                 class="relative flex w-full cursor-pointer items-start overflow-hidden rounded-none border-0 bg-transparent p-2 pl-4 transition-colors duration-200 hover:bg-surface-100 dark:hover:bg-surface-800"
+                                @click.stop="router.visit(route('profile'))"
                             >
                                 <Avatar
                                     :image="page.props.auth.user.avatar ?? $ninshiki.uiAvatar(page.props.auth.user.name)"
@@ -149,7 +150,7 @@ NinshikiApp.addShortcut(['command+q', 'ctrl+q'], function () {
                 </div>
             </div>
             <!--  CONTENT  -->
-            <div class="relative top-9 flex h-fit w-full">
+            <div class="relative flex h-fit w-full">
                 <!-- Optimized for Feed page for its scrolling and sticky element   -->
                 <div class="flex w-full pl-5">
                     <Transition name="page" appear>

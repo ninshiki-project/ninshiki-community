@@ -23,6 +23,10 @@
     "file": "PoweredBy_200px-White_HorizText.png",
     "src": "resources/assets/image/attribution/giphy/PoweredBy_200px-White_HorizText.png"
   },
+  "resources/assets/logo.png": {
+    "file": "logo.png",
+    "src": "resources/assets/logo.png"
+  },
   "resources/css/ninshiki.css": {
     "file": "ninshiki.css",
     "src": "resources/css/ninshiki.css",
