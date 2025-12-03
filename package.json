@@ -33,7 +33,7 @@
         "linkify-html": "^4.2.0",
         "linkify-plugin-hashtag": "^4.2.0",
         "linkify-plugin-mention": "^4.2.0",
-        "linkifyjs": "^4.2.0",
+        "linkifyjs": "^4.3.2",
         "lodash": "^4.17.21",
         "lucide-vue-next": "^0.483.0",
         "mousetrap": "^1.6.5",
