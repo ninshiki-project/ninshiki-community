@@ -34,7 +34,7 @@
         "linkify-plugin-hashtag": "^4.2.0",
         "linkify-plugin-mention": "^4.2.0",
         "linkifyjs": "^4.3.2",
-        "lodash": "^4.17.21",
+        "lodash": "^4.17.23",
         "lucide-vue-next": "^0.483.0",
         "mousetrap": "^1.6.5",
         "primeicons": "^7.0.0",
